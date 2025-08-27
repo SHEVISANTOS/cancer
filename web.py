@@ -84,3 +84,5 @@ if uploaded_file is not None:
     # Predict
     label, confidence = predict_image(model, class_names, image)
     st.success(f"Prediction: **{label}** with confidence {confidence:.2f}")
+
+st.write("BUILD BY SHEVI SANTOS")
