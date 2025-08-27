@@ -8,7 +8,7 @@ import os
 # -------------------------------
 # Helper function to load the model
 # -------------------------------
-def load_model(checkpoint_path="checkpoint.pth"):
+def load_model(checkpoint_path="best_model.pth"):
     """
     Load the CNN model from a checkpoint if it exists.
     Returns the model and class names.
